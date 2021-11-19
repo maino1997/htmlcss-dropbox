@@ -51,10 +51,24 @@ a{
     text-align: right;
 }
 
-.bnt-small{
+.btn{
     color: white;
     background-color: rgb(2,98,255);
+    width: 100%;
+    height: 100%;
+}
+
+.btn-big{
+    padding: 14px 20px 14px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.bnt-small{
     padding: 9px 18px 9px 18px;
+    margin-right: 15px;
 }
 
 /* Header-layout */
@@ -66,14 +80,11 @@ a{
 
 .spotlight-title{
     width: 100%;
-    height: 200px;
-    background-color: green;
 }
 
 .col-40{
     width: 40% ;
-    height: 400px;
-    background-color: purple;
+    font-size: 20px;
 }
 
 .col-60{
@@ -82,11 +93,15 @@ a{
     background-color: royalblue;
 }
 
+
+header .row{
+    margin-top: 50px;
+}
 /* Header-style */
 
 
 header li a{
-    font-size: 17px;
+    font-size: 18px;
     width: 100%;
     height: 100%;
     vertical-align: middle;
@@ -116,6 +131,32 @@ header li{
     font-weight: bold;
 }
 
+.spotlight{
+    background-color: rgb(180,208,231);
+}
+
+.spotlight-title{
+    padding-top: 40px;
+}
+
+.spotlight-title h1{
+    font-size: 80px;
+}
+
+header p{
+    margin-bottom: 40px;
+}
+
+header span{
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.fa-arrow-down{
+    font-size: 50px;
+    margin-top: 30px;
+    font-weight: bold;
+}
 
 /* MAIN-LAYOUT */
  
