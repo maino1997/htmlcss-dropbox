@@ -41,8 +41,6 @@ a{
 
 .col{
     float: left;
-    margin-left: 20px;
-    margin-bottom: 20px;
 }
 
 .text-center{
@@ -87,14 +85,18 @@ a{
 .col-40{
     width: calc(40% - 40px) ;
     font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .col-60{
     width: calc(60% - 40px) ;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 
-header .row{
+header .spotlight .row{
     margin-top: 60px;
     margin-left: -20px;
     margin-right: -20px;
