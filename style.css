@@ -30,6 +30,9 @@ a{
     color: black;
 }
 
+ul{
+    list-style: none;
+}
 
 /* Utilites */
 
@@ -119,7 +122,6 @@ header ul{
 
 header li{
     display: inline-block;
-    list-style: none;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -196,7 +198,7 @@ header span{
     height: 400px;
 }
 
-main h2{
+main .price-title h2{
     margin: 20px 0 20px 0;
 }
 
@@ -229,13 +231,17 @@ label{
     padding: 7px 0 7px 0;
 }
 
-.descrizione-abb h2,h3,h4,div{
+.content-30 li{
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 
-.col-30 span,a{
-    margin-top: 20px;
+.content-30{
+    padding-left: 30px;
+    padding-right: 20px;
 }
+
+
 /* FOOTER-LAYOUT */
 
 .col-20{
