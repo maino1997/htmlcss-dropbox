@@ -22,7 +22,6 @@ main{
 }
 
 section{
-    margin-top: 50px;
     margin-bottom: 50px;
 }
 
@@ -94,7 +93,7 @@ a{
 
 
 header .row{
-    margin-top: 50px;
+    margin-top: 60px;
 }
 /* Header-style */
 
@@ -136,7 +135,7 @@ header li{
 }
 
 .spotlight-title{
-    padding-top: 40px;
+    padding-top: 30px;
 }
 
 .spotlight-title h1{
@@ -149,7 +148,7 @@ header p{
 
 header span{
     display: inline-block;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .fa-arrow-down{
