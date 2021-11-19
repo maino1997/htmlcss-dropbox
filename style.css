@@ -232,6 +232,10 @@ label{
 .descrizione-abb h2,h3,h4,div{
     margin-bottom: 30px;
 }
+
+.col-30 span,a{
+    margin-top: 20px;
+}
 /* FOOTER-LAYOUT */
 
 .col-20{
