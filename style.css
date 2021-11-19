@@ -176,8 +176,6 @@ header span{
  
 .col-30{
     width: 30%;
-    height: 400px;
-    background-color: brown;
     border: 1px solid black;
 }
 
@@ -222,6 +220,13 @@ label{
     margin-right: 20px;
 }
 
+/* MAIN-STYLE */
+
+
+.abb-type{
+    font-size: 20px;
+    font-weight: bold;
+}
 /* FOOTER-LAYOUT */
 
 .col-20{
