@@ -90,4 +90,10 @@ section{
     height: 400px;
 }
 
+/* FOOTER-LAYOUT */
 
+.col-20{
+    width:20%;
+    height: 400px;
+    background-color: darkorange;
+}
