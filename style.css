@@ -43,11 +43,22 @@ a{
     float: left;
 }
 
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.bnt-small{
+    color: white;
+    background-color: rgb(2,98,255);
+    padding: 9px 18px 9px 18px;
+}
+
 /* Header-layout */
 
-.header-bar{
-    height: 70px;
-}
 
 .col-50{
     width: 50%;
@@ -71,20 +82,27 @@ a{
     background-color: royalblue;
 }
 
-header a{
+/* Header-style */
+
+
+header li a{
     font-size: 17px;
-    padding: 15px;
     width: 100%;
     height: 100%;
     vertical-align: middle;
+    display: inline-block;
 }
 
-ul{
+header ul{
     display: inline-block;
+    line-height: 70px;
 }
 
 header li{
     display: inline-block;
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #logo-dropbox{
@@ -92,6 +110,7 @@ header li{
     padding-left: 15px;
     vertical-align: middle;
 }
+
 
 /* MAIN-LAYOUT */
  
