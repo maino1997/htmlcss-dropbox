@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .big-container{
@@ -97,7 +97,7 @@ a{
 
 
 header .spotlight .row{
-    margin-top: 60px;
+    margin-top: 30px;
     margin-left: -25px;
     margin-right: -25px;
 }
@@ -149,17 +149,21 @@ header li{
 }
 
 header p{
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 header span{
     display: inline-block;
     margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .fa-arrow-down{
-    font-size: 50px;
-    margin-top: 30px;
+    font-size: 45px;
+    margin-top: 20px;
     font-weight: bold;
 }
 
@@ -192,6 +196,30 @@ header span{
 .domande{
     background-color: darkgreen;
     height: 400px;
+}
+
+main h2{
+    margin: 20px 0 20px 0;
+}
+
+.check-radio{
+    margin: 30px 0 30px 0;
+}
+
+.circle-icon{
+    height: 15px;
+    width: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.blue{
+    border: 4px solid rgb(0, 140, 255);
+}
+
+label{
+    margin-right: 20px;
 }
 
 /* FOOTER-LAYOUT */
