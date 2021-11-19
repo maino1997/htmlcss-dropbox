@@ -31,6 +31,7 @@ a{
     color: black;
 }
 
+
 /* Utilites */
 
 .clearfix::after{
@@ -89,8 +90,6 @@ a{
 
 .col-60{
     width: 60%;
-    height: 400px;
-    background-color: royalblue;
 }
 
 
@@ -133,6 +132,7 @@ header li{
 
 .spotlight{
     background-color: rgb(180,208,231);
+    max-height: 620px;
 }
 
 .spotlight-title{
@@ -156,6 +156,11 @@ header span{
     font-size: 50px;
     margin-top: 30px;
     font-weight: bold;
+}
+
+
+.spotlight .col-60 img{
+    width: 100%;
 }
 
 /* MAIN-LAYOUT */
