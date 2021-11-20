@@ -185,7 +185,6 @@ main img{
  
 .col-30{
     width: calc(33% - 40px);
-    border: 1px solid rgb(220,220,222);
     margin: 0 20px 0 20px;
 }
 
@@ -240,6 +239,10 @@ label{
     font-size: 20px;
     font-weight: bold;
     padding: 7px 0 7px 0;
+}
+
+.price .col-30{
+    border: 1px solid rgb(220,220,222);
 }
 
 .content-30 li{
@@ -314,11 +317,24 @@ label{
     color: black;
 }
 
-.content-50 h2, p{
+.content-50 h2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: bolder;
+ }
+.content-50 p{
     margin-top: 40px;
     margin-bottom: 40px;
     font-weight: bolder;
 }
+
+.operazioni p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: bolder;
+}
+
+
 /* FOOTER-LAYOUT */
 
 .col-20{
