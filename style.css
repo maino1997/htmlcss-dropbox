@@ -34,7 +34,21 @@ ul{
     list-style: none;
 }
 
+.green{
+    background-color: rgb(162,211,155);
+}
 
+.purple{
+    background-color: rgb(97,8,43);
+}
+
+.doggerblue{
+    background-color: rgb(0,147,206);
+}
+
+.red{
+    background-color: rgb(255,28,28);
+}
 /* Utilites */
 
 .clearfix::after{
@@ -183,9 +197,13 @@ main img{
     overflow: hidden;
 }
  
-.col-30{
+.price .col-30{
     width: calc(33% - 40px);
     margin: 0 20px 0 20px;
+}
+
+.clienti .col-30{
+    width: 33%;
 }
 
 .price-footer{
@@ -195,8 +213,6 @@ main img{
 
 .titolo-clienti{
     width: 100%;
-    height: 100px;
-    background-color: blue;
 }
 
 .domande{
@@ -328,10 +344,26 @@ label{
     font-weight: bolder;
 }
 
+.operazioni h3{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
 .operazioni p{
     margin-top: 40px;
     margin-bottom: 40px;
-    font-weight: bolder;
+    font-weight: bold;
+}
+
+.titolo-clienti h2{
+    font-size: 40px;
+    width: 60%;
+}
+
+.client-box{
+    width: 50%;
+    height: 250px;
+    float: left;
 }
 
 
