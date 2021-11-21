@@ -115,6 +115,10 @@ background-color: rgb(180,208,231);
     margin-top: 15px;
 }
 
+.spotlight-title, .spotlight .col-60 img, .price-footer, .titolo-clienti, main img {
+    width: 100%;
+}
+
 /* Header-layout */
 
 
@@ -122,9 +126,6 @@ background-color: rgb(180,208,231);
     width: 50%;
 }
 
-.spotlight-title{
-    width: 100%;
-}
 
 header .col-40{
     width: calc(40% - 50px) ;
@@ -180,7 +181,6 @@ header li{
 
 .bnt-small:hover{
     background-color: rgb(63, 135, 252);
-    font-weight: bold;
 }
 
 .spotlight{
@@ -215,15 +215,6 @@ header span{
     font-weight: bold;
 }
 
-
-.spotlight .col-60 img{
-    width: 100%;
-}
-
-/* MAIN-LAYOUT */
-main img{
-    width: 100%;
-}
  
 .col-33{
     width: calc(33% - 40px);
@@ -236,15 +227,6 @@ main img{
 
 .clienti .col-33{
     width: 33%;
-}
-
-.price-footer{
-    width: 100%;
-}
-
-
-.titolo-clienti{
-    width: 100%;
 }
 
 main .price-title h2{
@@ -330,21 +312,10 @@ label{
     padding: 10px;
 }
 
-.price-footer-bottom h2{
+.price-footer-bottom h2, .price-footer-bottom h3 , .price-footer-bottom h4{
     margin-top: 40px;
     margin-bottom: 40px;
 }
-
-.price-footer-bottom h3{
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-.price-footer-bottom h4{
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
 
 .price-footer-bottom a{
     position: absolute;
