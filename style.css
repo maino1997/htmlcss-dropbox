@@ -34,22 +34,6 @@ ul{
     list-style: none;
 }
 
-.green{
-    background-color: rgb(162,211,155);
-}
-
-.purple{
-    background-color: rgb(97,8,43);
-}
-
-.doggerblue{
-    background-color: rgb(0,147,206);
-}
-
-.red{
-    background-color: rgb(255,28,28);
-}
-
 address{
     font-style: normal;
 }
@@ -84,7 +68,37 @@ address{
     margin-bottom: 20px;
 }
 
+.green{
+    background-color: rgb(162,211,155);
+}
 
+.purple{
+    background-color: rgb(97,8,43);
+}
+
+.doggerblue{
+    background-color: rgb(0,147,206);
+}
+
+.red{
+    background-color: rgb(255,28,28);
+}
+
+.dark-red{
+    background-color: rgb(213,0,31);
+}
+
+.light-blue{
+background-color: rgb(180,208,231);
+}
+
+.bloo{
+    background-color: rgb(13,36,129);
+}
+
+.gold{
+    background-color: rgb(255,216,48);
+}
 
 .bnt-small{
     padding: 9px 18px 9px 18px;
@@ -206,14 +220,13 @@ main img{
     overflow: hidden;
 }
  
-.price .col-33{
+.col-33{
     width: calc(33% - 40px);
     margin: 0 20px 0 20px;
 }
 
-.operazioni .col-33{
-    width: calc(33% - 40px);
-    margin: 0 20px 0 20px;
+.col-30{
+    width: 30%;
 }
 
 .clienti .col-33{
@@ -378,6 +391,7 @@ label{
     width: 50%;
     height: 250px;
     float: left;
+    position: relative;
 }
 
 .clienti .row{
@@ -388,13 +402,22 @@ label{
     background-color: rgb(245,245,245);
 }
 
-.clienti .col-40 img{
+.clienti  img{
     width: 150px;
     height: 100px;
+    object-fit: contain;
+}
+
+.clienti-boxes img{
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
 }
 
 .clienti .col-40 p{
-    margin: 50px 0 50px 0;
+    margin: 50px 0 106px 0;
 }
 
 
