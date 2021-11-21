@@ -395,7 +395,7 @@ label{
 }
 
 .clienti .row{
-    margin: 100px 0px 80px 0px;
+    margin: 100px 0px 0px 0px;
 }
 
 .clienti .col-40{
@@ -429,6 +429,41 @@ label{
 .soluzioni-paper hr{
     width: 10%;
 }
+
+.clienti-footer .row{
+    margin: 0 0 100px 0;
+}
+
+.clienti-footer{
+    background-color: rgb(180,208,231);
+    height: 400px;
+}
+
+.content50{
+    height: 400px;
+   position: relative;
+}
+
+ .clienti-footer h2{
+    font-size: 40px;
+    color: rgb(113,47,79);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.clienti-footer a{
+    position: absolute;
+    right: 0;
+    top: 40%;
+    transform: translateY(-50%);
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    padding: 12px 80px 12px 80px;
+}
+
+
 
 /* FOOTER-LAYOUT */
 
