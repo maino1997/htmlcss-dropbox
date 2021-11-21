@@ -49,6 +49,10 @@ ul{
 .red{
     background-color: rgb(255,28,28);
 }
+
+address{
+    font-style: normal;
+}
 /* Utilites */
 
 .clearfix::after{
@@ -371,6 +375,27 @@ label{
     float: left;
 }
 
+.clienti .row{
+    margin: 100px 0px 80px 0px;
+}
+
+.clienti .col-40 img{
+    width: 150px;
+    height: 100px;
+}
+
+.clienti .col-40 p{
+    margin: 50px 0 50px 0;
+}
+
+
+.soluzioni-paper{
+    padding: 20px;
+}
+
+.soluzioni-paper hr{
+    width: 20%;
+}
 
 /* FOOTER-LAYOUT */
 
