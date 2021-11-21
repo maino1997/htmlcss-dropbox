@@ -202,6 +202,11 @@ main img{
     margin: 0 20px 0 20px;
 }
 
+.operazioni .col-30{
+    width: calc(33% - 40px);
+    margin: 0 20px 0 20px;
+}
+
 .clienti .col-30{
     width: 33%;
 }
