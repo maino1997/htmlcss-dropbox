@@ -106,11 +106,16 @@ address{
     width: 100%;
 }
 
-.col-40{
+header .col-40{
     width: calc(40% - 50px) ;
     font-size: 20px;
     margin-left: 25px;
     margin-right: 25px;
+}
+
+.col-40{
+    width: 40%;
+    font-size: 20px;
 }
 
 .col-60{
@@ -201,17 +206,17 @@ main img{
     overflow: hidden;
 }
  
-.price .col-30{
+.price .col-33{
     width: calc(33% - 40px);
     margin: 0 20px 0 20px;
 }
 
-.operazioni .col-30{
+.operazioni .col-33{
     width: calc(33% - 40px);
     margin: 0 20px 0 20px;
 }
 
-.clienti .col-30{
+.clienti .col-33{
     width: 33%;
 }
 
@@ -266,16 +271,16 @@ label{
     padding: 7px 0 7px 0;
 }
 
-.price .col-30{
+.price .col-33{
     border: 1px solid rgb(220,220,222);
 }
 
-.content-30 li{
+.content-33 li{
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-.content-30{
+.content-33{
     width: 80% ;
     margin: 0 auto;
 }
@@ -379,6 +384,10 @@ label{
     margin: 100px 0px 80px 0px;
 }
 
+.clienti .col-40{
+    background-color: rgb(245,245,245);
+}
+
 .clienti .col-40 img{
     width: 150px;
     height: 100px;
@@ -390,7 +399,7 @@ label{
 
 
 .soluzioni-paper{
-    padding: 20px;
+    padding: 35px;
 }
 
 .soluzioni-paper hr{
