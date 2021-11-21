@@ -34,6 +34,20 @@ ul{
     list-style: none;
 }
 
+.header-bar{
+    position: fixed;
+    width: 100%;
+}
+
+.spotlight{
+    margin-top: 150px;
+}
+
+.header-bar .row{
+    margin-top: -150px;
+    background-color: white;
+}
+
 address{
     font-style: normal;
 }
@@ -173,8 +187,8 @@ header ul{
 
 header li{
     display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 #logo-dropbox{
