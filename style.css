@@ -296,10 +296,6 @@ main .price-title h2{
     margin: 0 auto;
 }
 
-.abb-pro{
-    /* box-sizing: content-box; */
-}
-
 .abb-pro li a{
     margin: 30px 0 0 0;
     display: inline-block;
