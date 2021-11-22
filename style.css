@@ -129,9 +129,6 @@ background-color: rgb(180,208,231);
     margin-right: 15px;
 }
 
-#margin-15{
-    margin-top: 15px;
-}
 
 .spotlight-title, .spotlight .col-60 img, .price-footer, .titolo-clienti, main img {
     width: 100%;
@@ -173,6 +170,8 @@ header .spotlight .row{
     margin-left: -25px;
     margin-right: -25px;
 }
+
+
 /* Header-style */
 
 
@@ -191,8 +190,8 @@ header ul{
 
 header li{
     display: inline-block;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #logo-dropbox{
@@ -235,6 +234,10 @@ header span{
 }
 
  
+
+/* MAIN-STYLE */
+
+
 .col-33{
     width: calc(33% - 40px);
     margin: 0 20px 0 20px;
@@ -244,13 +247,6 @@ header span{
     width: 30%;
 }
 
-.clienti .col-33{
-    width: 33%;
-}
-
-main .price-title h2{
-    margin: 20px 0 20px 0;
-}
 
 .check-radio{
     margin: 30px 0 30px 0;
@@ -272,8 +268,10 @@ label{
     margin-right: 20px;
 }
 
-/* MAIN-STYLE */
 
+main .price-title h2{
+    margin: 20px 0 20px 0;
+}
 
 .price .row{
     margin: 0 -30px 0 -20px;
@@ -298,6 +296,10 @@ label{
     margin: 0 auto;
 }
 
+.abb-pro{
+    /* box-sizing: content-box; */
+}
+
 .abb-pro li a{
     margin: 30px 0 0 0;
     display: inline-block;
@@ -310,6 +312,7 @@ label{
 .abb-pro .fa-check{
     color: rgb(24, 102, 248);
     font-size: 20px;
+    margin-left: -25px;
 }
 
 .abb-pro .last-ul{
@@ -323,11 +326,15 @@ label{
 
 .price-footer-bottom{
     position: relative;
+    padding: 30px;
+}
+
+.price-footer-top{
+    padding: 10px;
 }
 
 .price-footer-bottom , .price-footer-top{
     border: 1px solid rgb(220,220,222);
-    padding: 10px;
 }
 
 .price-footer-bottom h2, .price-footer-bottom h3 , .price-footer-bottom h4{
@@ -387,7 +394,7 @@ label{
 
 .client-box{
     width: 50%;
-    height: 250px;
+    height: 202px;
     float: left;
     position: relative;
 }
@@ -398,6 +405,7 @@ label{
 
 .clienti .col-40{
     background-color: rgb(245,245,245);
+    max-height: 404px;
 }
 
 .clienti  img{
@@ -416,7 +424,8 @@ label{
 }
 
 .clienti .col-40 p{
-    margin: 50px 0 106px 0;
+    margin: 20px 0 40px 0;
+    font-size: 18px;
 }
 
 
