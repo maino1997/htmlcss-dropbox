@@ -286,10 +286,8 @@ header span{
     }
 }
 
- 
 
-/* MAIN-STYLE */
-
+/* MAIN-LAYOUT */
 
 .col-33{
     width: calc(100% / 3 - 40px);
@@ -298,6 +296,22 @@ header span{
 .col-30{
     width: 30%;
 }
+
+.content-33{
+    width: 80% ;
+    margin: 0 auto;
+}
+
+.contatto .col-50{
+    width: calc(50% - 40px);
+ }
+ 
+ .content50{
+    height: 400px;
+   position: relative;
+}
+
+/* MAIN-STYLE */
 
 
 .check-radio{
@@ -337,10 +351,6 @@ label{
     border: 4px solid rgb(14,106,255);
 }
 
-.blue{
-    border: 4px solid rgb(0, 140, 255);
-}
-
 label{
     margin-right: 20px;
 }
@@ -356,10 +366,6 @@ label{
     margin-bottom: 30px;
 }
 
-.content-33{
-    width: 80% ;
-    margin: 0 auto;
-}
 
 .abb-pro li a{
     display: inline-block;
@@ -403,9 +409,6 @@ label{
     top: 15px;
 }
 
-.contatto .col-50{
-   width: calc(50% - 40px);
-}
 
 .content-50{
     padding: 0 20px 20px 20px;
@@ -417,7 +420,7 @@ label{
     color: black;
 }
 
-.content-50 p{
+.content-50 p , .operazioni p{
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -426,10 +429,6 @@ label{
     margin-bottom: 70px;
 }
 
-.operazioni p{
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
 
 .titolo-clienti h2{
     width: 60%;
@@ -490,10 +489,6 @@ label{
     height: 400px;
 }
 
-.content50{
-    height: 400px;
-   position: relative;
-}
 
  .clienti-footer h2{
     color: rgb(113,47,79);
