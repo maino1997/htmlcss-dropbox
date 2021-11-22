@@ -311,10 +311,14 @@ label{
     width: 30%;
 }
 
+.last-ul li{
+    text-indent: -0.75rem;
+    padding-left: 1.5rem;
+}
+
 .abb-pro .fa-check{
     color: rgb(24, 102, 248);
     font-size: 20px;
-    /* margin-left: -25px; */
 }
 
 .abb-pro .last-ul{
@@ -435,7 +439,6 @@ label{
 }
 
  .clienti-footer h2{
-     margin:0;
     color: rgb(113,47,79);
     position: absolute;
     top: 50%;
