@@ -312,7 +312,7 @@ label{
     margin: 0 10px 0 15px;
 }
 
-#radio-blue::after{
+#radio-blue::after , #radio-white::after{
     width: 16px;
     height: 16px;
     border-radius: 50%;
@@ -326,7 +326,7 @@ label{
     border: 1px solid black;
 }
 
-#radio-blue:checked::after{
+#radio-blue:checked::after , #radio-white:checked:after{
     box-sizing: border-box;
     width: 20px;
     height: 20px;
