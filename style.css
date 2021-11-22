@@ -311,7 +311,7 @@ label{
     width: 30%;
 }
 
-.last-ul li{
+.indent{
     text-indent: -0.75rem;
     padding-left: 1.5rem;
 }
