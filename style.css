@@ -38,6 +38,18 @@ body{
     padding-top: 71px;
 }
 
+h2{
+    font-size: 35px;
+    margin: 40px 0 40px 0;
+}
+
+ h3{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
 .header-bar{
     position: fixed;
     z-index: 1;
@@ -138,13 +150,17 @@ background-color: rgb(180,208,231);
     font-weight: bold;
 }
 
+.price .col-33 , .price-footer-bottom , .price-footer-top{
+    border: 1px solid rgb(220,220,222);
+}
+
+
 /* Header-layout */
 
 
 .col-50{
     width: 50%;
 }
-
 
 header .col-40{
     width: calc(40% - 50px) ;
@@ -268,11 +284,6 @@ label{
     margin-right: 20px;
 }
 
-
-main .price-title h2{
-    margin: 20px 0 20px 0;
-}
-
 .price .row{
     margin: 0 -30px 0 -20px;
 }
@@ -280,10 +291,6 @@ main .price-title h2{
 .abb-type{
     font-size: 20px;
     padding: 7px 0 7px 0;
-}
-
-.price .col-33{
-    border: 1px solid rgb(220,220,222);
 }
 
 .content-33 li{
@@ -297,7 +304,6 @@ main .price-title h2{
 }
 
 .abb-pro li a{
-    margin: 30px 0 0 0;
     display: inline-block;
 }
 
@@ -308,7 +314,7 @@ main .price-title h2{
 .abb-pro .fa-check{
     color: rgb(24, 102, 248);
     font-size: 20px;
-    margin-left: -25px;
+    /* margin-left: -25px; */
 }
 
 .abb-pro .last-ul{
@@ -327,15 +333,6 @@ main .price-title h2{
 
 .price-footer-top{
     padding: 10px;
-}
-
-.price-footer-bottom , .price-footer-top{
-    border: 1px solid rgb(220,220,222);
-}
-
-.price-footer-bottom h2, .price-footer-bottom h3 , .price-footer-bottom h4{
-    margin-top: 40px;
-    margin-bottom: 40px;
 }
 
 .price-footer-bottom a{
@@ -363,20 +360,11 @@ main .price-title h2{
     color: black;
 }
 
-.content-50 h2{
-    margin-top: 40px;
-    margin-bottom: 40px;
-    font-weight: bolder;
- }
 .content-50 p{
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
-.operazioni h3{
-    font-size: 25px;
-    font-weight: bolder;
-}
 
 .operazioni p{
     margin-top: 40px;
@@ -384,7 +372,6 @@ main .price-title h2{
 }
 
 .titolo-clienti h2{
-    font-size: 40px;
     width: 60%;
 }
 
@@ -448,12 +435,10 @@ main .price-title h2{
 }
 
  .clienti-footer h2{
-    font-size: 40px;
     color: rgb(113,47,79);
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    font-weight: bolder;
 }
 
 .clienti-footer a{
@@ -465,10 +450,6 @@ main .price-title h2{
     color: black;
     font-weight: bolder;
     padding: 12px 80px 12px 80px;
-}
-
-.domande h4{
-    display: inline-block;
 }
 
 .domande .row{
