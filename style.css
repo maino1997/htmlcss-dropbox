@@ -582,19 +582,16 @@ footer hr{
     display: block;
 }
 
-.domande .row{
+.question-left {
     position: relative;
 }
 
 .hidden-p{
-    display: none;
-    position: absolute;
-    left: 0;
-    top: 5rem;
-    margin-bottom: 50px;
+    display: none;    
+    margin: 40px 0 40px 0;
 }
 
 .domande .row:hover .hidden-p{
     display: block;
 }
-
+ 
