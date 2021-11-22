@@ -313,13 +313,14 @@ header span{
 
 /* MAIN-STYLE */
 
+/* Titolo e radio  */
 
 .check-radio{
     margin: 30px 0 30px 0;
 }
 
 label{
-    margin: 0 10px 0 15px;
+    margin: 0 20px 0 15px;
 }
 
 #radio-blue::after , #radio-white::after{
@@ -351,10 +352,8 @@ label{
     border: 4px solid rgb(14,106,255);
 }
 
-label{
-    margin-right: 20px;
-}
 
+/* Sezione price-abbonamenti */
 
 .abb-type{
     font-size: 20px;
@@ -389,6 +388,10 @@ label{
     margin-bottom: 200px;
 }
 
+
+
+/* Price footer  */
+
 .price-footer{
     margin-top: 80px;
 }
@@ -410,6 +413,8 @@ label{
 }
 
 
+/* Sezione Contatto */
+
 .content-50{
     padding: 0 20px 20px 20px;
 }
@@ -420,15 +425,22 @@ label{
     color: black;
 }
 
+
+/* Sezione operazioni  */
+
 .content-50 p , .operazioni p{
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
+
 .operazioni .row{
     margin-bottom: 70px;
 }
 
+
+
+/* Sezione Clienti e loghi */
 
 .titolo-clienti h2{
     width: 60%;
@@ -480,6 +492,9 @@ label{
     width: 10%;
 }
 
+
+/* Sezione Clienti footer  */
+
 .clienti-footer .row{
     margin: 0 0 100px 0;
 }
@@ -509,15 +524,19 @@ label{
 }
 
 
+/* Sezione domande  */
+
 .domande .row{
     margin: 20px 0 20px 0;
 }
+
 
 /* FOOTER-LAYOUT */
 
 .col-20{
     width:20%;
 }
+
 
 /* FOOTER-STYLE */
 
