@@ -460,8 +460,12 @@ label{
     padding: 12px 80px 12px 80px;
 }
 
+.domande h2{
+    margin: 0;
+}
+
 .domande .row{
-    margin: 30px 0 30px 0;
+    margin: 20px 0 20px 0;
 }
 
 /* FOOTER-LAYOUT */
