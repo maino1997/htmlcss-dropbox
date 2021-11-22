@@ -112,6 +112,7 @@ footer{
     margin-bottom: 20px;
 }
 
+
 .green{
     background-color: rgb(162,211,155);
 }
@@ -224,10 +225,6 @@ header li{
     vertical-align: middle;
 }
 
-.bnt-small:hover{
-    background-color: rgb(63, 135, 252);
-}
-
 .spotlight{
     background-color: rgb(180,208,231);
     max-height: 620px;
@@ -276,12 +273,56 @@ header span{
     margin: 30px 0 30px 0;
 }
 
-.circle-icon{
+/* .circle-icon{
     height: 15px;
     width: 15px;
     border: 1px solid black;
     border-radius: 50%;
     display: inline-block;
+} */
+
+/* #radio-blue{
+    appearance: none;
+    background-color: #fff;
+    font: inherit;
+  color: blue;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em blue;
+  border-radius: 50%;
+} */
+
+label{
+    margin: 0 10px 0 15px;
+}
+
+#radio-blue::after{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: white;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid black;
+}
+
+#radio-blue:checked::after{
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: white;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 4px solid rgb(14,106,255);
 }
 
 .blue{
@@ -392,6 +433,7 @@ label{
     height: 202px;
     float: left;
     position: relative;
+    transition: 0.5s;
 }
 
 .clienti .row{
@@ -491,4 +533,41 @@ footer li{
 
 footer hr{
     width: 10%;
+}
+
+
+/* HOOVER-ACTIVE */
+
+.client-box:hover{
+    border: 10px solid rgb(201,230,198);
+}
+
+.btn:hover{
+   filter: brightness(1.5);
+}
+
+.header-bar li:hover{
+    border-bottom: 2px solid black;
+}
+
+.help-ul li {
+        position: relative;
+        display: block;
+        text-align: left;
+    }
+    
+.help-ul {
+        border: 1px solid rgb(220,220,222);
+        background-color: white;
+        position: absolute;
+        top: 74px;
+        right: 30%;
+        display: none;
+    }
+.help-btn:hover li{
+    border:none;
+}
+
+.help-btn:hover ul{
+    display: block;
 }
