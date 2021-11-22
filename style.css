@@ -103,6 +103,11 @@ footer{
     float: left;
 }
 
+.gutter{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .text-center{
     text-align: center;
 }
@@ -182,10 +187,8 @@ background-color: rgb(180,208,231);
 }
 
 header .col-40{
-    width: calc(40% - 50px) ;
+    width: calc(40% - 40px) ;
     font-size: 20px;
-    margin-left: 25px;
-    margin-right: 25px;
 }
 
 .col-40{
@@ -194,16 +197,14 @@ header .col-40{
 }
 
 .col-60{
-    width: calc(60% - 50px) ;
-    margin-left: 25px;
-    margin-right: 25px;
+    width: calc(60% - 40px) ;
 }
 
 
 header .spotlight .row{
     margin-top: 30px;
-    margin-left: -25px;
-    margin-right: -25px;
+    margin-left: -20px;
+    margin-right: -20px;
 }
 
 
@@ -289,7 +290,6 @@ header span{
 
 .col-33{
     width: calc(33% - 40px);
-    margin: 0 20px 0 20px;
 }
 
 .col-30{
@@ -405,7 +405,6 @@ label{
 
 .contatto .col-50{
    width: calc(50% - 40px);
-   margin: 0 20px 0 20px;
 }
 
 .contatto .row{
@@ -427,6 +426,9 @@ label{
     margin-bottom: 40px;
 }
 
+.operazioni .row{
+    margin-bottom: 70px;
+}
 
 .operazioni p{
     margin-top: 40px;
