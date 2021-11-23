@@ -381,6 +381,31 @@ header span{
 }
 
 
+
+/* PRICE-FOOTER  */
+
+
+.price-footer{
+    margin-top: 80px;
+}
+
+.price-footer-top{
+    padding: 10px;
+}
+
+.price-footer-bottom{
+    position: relative;
+    padding: 30px;
+}
+
+.price-footer-bottom a{
+    position: absolute;
+    left: 75%;
+    top: 15px;
+}
+
+
+
 /* Header-layout */
 
 
@@ -444,25 +469,6 @@ label{
 
 /* Price footer  */
 
-.price-footer{
-    margin-top: 80px;
-}
-
-
-.price-footer-bottom{
-    position: relative;
-    padding: 30px;
-}
-
-.price-footer-top{
-    padding: 10px;
-}
-
-.price-footer-bottom a{
-    position: absolute;
-    left: 75%;
-    top: 15px;
-}
 
 
 /* Sezione Contatto */
