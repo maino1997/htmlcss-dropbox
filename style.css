@@ -155,7 +155,7 @@ background-color: rgb(180,208,231);
     margin-right: 15px;
 }
 
-.spotlight-title,  .price-footer, .titolo-clienti, main img {
+.spotlight-title,  .price-footer, main img {
     width: 100%;
 }
 
@@ -442,6 +442,106 @@ header span{
 }
 
 
+
+/* SECTION-CLIENTI  */
+
+.titolo-clienti{
+    width: 100%;
+}
+
+.titolo-clienti h2{
+    width: 60%;
+}
+
+.titolo-clienti a{
+    text-decoration: underline;
+    color: blue;
+}
+
+.clienti .row{
+    margin: 100px 0px 0px 0px;
+}
+
+.col-30{
+    width: 30%;
+    height: 30vw;
+}
+
+.client-box{
+    width: 50%;
+    height: 50%;
+    float: left;
+    position: relative;
+    transition: 0.5s;
+}
+
+.clienti-boxes img{
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    filter: invert(100%);
+}
+
+.clienti  img{
+    width: 150px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.clienti .col-40{
+    background-color: rgb(245,245,245);
+    height: 30vw;
+}
+
+.soluzioni-paper{
+    padding: 35px;
+}
+
+.soluzioni-paper hr{
+    width: 10%;
+}
+
+.clienti .col-40 p{
+    margin: 20px 0 40px 0;
+    font-size: 18px;
+}
+
+
+.clienti-footer{
+    background-color: rgb(180,208,231);
+    height: 400px;
+}
+
+.clienti-footer .row{
+    margin: 0 0 100px 0;
+}
+
+.content50{
+    height: 400px;
+   position: relative;
+}
+
+.clienti-footer h2{
+    color: rgb(113,47,79);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.clienti-footer a{
+    position: absolute;
+    right: 0;
+    top: 40%;
+    transform: translateY(-50%);
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    padding: 12px 80px 12px 80px;
+}
+
+
 /* Header-layout */
 
 
@@ -468,18 +568,7 @@ header span{
 .col-33{
     width: calc(100% / 3 - 40px);
 }
-
-.col-30{
-    width: 30%;
-    height: 30vw;
-}
-
-
  
- .content50{
-    height: 400px;
-   position: relative;
-}
 
 /* MAIN-STYLE */
 
@@ -513,91 +602,10 @@ label{
 
 /* Sezione Clienti e loghi */
 
-.titolo-clienti h2{
-    width: 60%;
-}
-
-.titolo-clienti a{
-    text-decoration: underline;
-    color: blue;
-}
-
-.client-box{
-    width: 50%;
-    height: 50%;
-    float: left;
-    position: relative;
-    transition: 0.5s;
-}
-
-.clienti .row{
-    margin: 100px 0px 0px 0px;
-}
-
-.clienti .col-40{
-    background-color: rgb(245,245,245);
-    height: 30vw;
-}
-
-.clienti  img{
-    width: 150px;
-    height: 100px;
-    object-fit: contain;
-}
-
-.clienti-boxes img{
-    color: white;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50% , -50%);
-    filter: invert(100%);
-}
-
-.clienti .col-40 p{
-    margin: 20px 0 40px 0;
-    font-size: 18px;
-}
-
-
-.soluzioni-paper{
-    padding: 35px;
-}
-
-.soluzioni-paper hr{
-    width: 10%;
-}
 
 
 /* Sezione Clienti footer  */
 
-.clienti-footer .row{
-    margin: 0 0 100px 0;
-}
-
-.clienti-footer{
-    background-color: rgb(180,208,231);
-    height: 400px;
-}
-
-
- .clienti-footer h2{
-    color: rgb(113,47,79);
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.clienti-footer a{
-    position: absolute;
-    right: 0;
-    top: 40%;
-    transform: translateY(-50%);
-    background-color: white;
-    color: black;
-    font-weight: bolder;
-    padding: 12px 80px 12px 80px;
-}
 
 
 /* Sezione domande  */
