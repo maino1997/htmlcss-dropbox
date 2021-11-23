@@ -447,6 +447,11 @@ label{
     width: 60%;
 }
 
+.clienti a{
+    text-decoration: underline;
+    color: blue;
+}
+
 .client-box{
     width: 50%;
     height: 50%;
