@@ -295,6 +295,7 @@ header span{
 
 .col-30{
     width: 30%;
+    height: 30vw;
 }
 
 .content-33{
@@ -448,7 +449,7 @@ label{
 
 .client-box{
     width: 50%;
-    height: 202px;
+    height: 50%;
     float: left;
     position: relative;
     transition: 0.5s;
@@ -460,7 +461,7 @@ label{
 
 .clienti .col-40{
     background-color: rgb(245,245,245);
-    max-height: 404px;
+    height: 30vw;
 }
 
 .clienti  img{
@@ -601,6 +602,7 @@ footer hr{
 .hidden-p{
     display: none;    
     margin: 40px 0 40px 0;
+    transition: 3s;
 }
 
 .domande .row:hover .hidden-p{
