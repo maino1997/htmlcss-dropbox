@@ -86,7 +86,8 @@ footer{
  }
 
  
-/* Utilites */
+ 
+/* UTILITIES */
 
 .clearfix::after{
     clear: both;
