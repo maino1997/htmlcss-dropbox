@@ -67,26 +67,6 @@ p{
 }
 
 
-.header-bar{
-    box-sizing: border-box;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: white;
-    height: 72px;
-    line-height: 72px; 
-
-    box-shadow: 0 1px 1px lightgrey;
-
-}
-
-.header-bar .row{
-    width: 100%;
-    height: 100%;
-}
-
 address{
     font-style: normal;
 }
@@ -175,8 +155,7 @@ background-color: rgb(180,208,231);
     margin-right: 15px;
 }
 
-
-.spotlight-title, .spotlight .col-60 img, .price-footer, .titolo-clienti, main img {
+.spotlight-title,  .price-footer, .titolo-clienti, main img {
     width: 100%;
 }
 
@@ -189,36 +168,51 @@ background-color: rgb(180,208,231);
 }
 
 
-/* Header-layout */
+/* HEADER-BAR  */
 
 
-.col-50{
-    width: 50%;
+.header-bar{
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    height: 72px;
+    line-height: 72px; 
+    box-shadow: 0 1px 1px lightgrey;
+}
+
+.header-bar .row{
+    width: 100%;
     height: 100%;
 }
 
-header .col-40{
-    width: calc(40% - 40px) ;
-    font-size: 20px;
+#logo-dropbox{
+    line-height: 100%;
+    padding-left: 15px;
+    vertical-align: middle;
 }
 
-.col-40{
-    width: 40%;
-    font-size: 20px;
+header ul.main{
+    display: inline-block;
+    height: 100%;
 }
 
-.col-60{
-    width: calc(60% - 40px) ;
+ul.main > li {
+    border-bottom: 2px solid transparent;
+}
+ul.main > li:hover {
+    border-bottom: 2px solid black;
 }
 
-
-header .spotlight .row{
-    margin-top: 30px;
+header li{
+    display: inline-block;
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
 }
-
-
-/* Header-style */
-
 
 header li a{
     font-size: 18px;
@@ -228,24 +222,23 @@ header li a{
     display: inline-block;
 }
 
-header ul.main{
-    display: inline-block;
-    height: 100%;
+.help-ul {
+    border: 1px solid rgb(220,220,222);
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    right: 30%;
+    display: none;
+}
+
+.help-ul li {
+    position: relative;
+    display: block;
+    text-align: left;
 }
 
 
-header li{
-    display: inline-block;
-    height: 100%;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-#logo-dropbox{
-    line-height: 100%;
-    padding-left: 15px;
-    vertical-align: middle;
-}
+/* SPOTLIGHT  */
 
 .spotlight{
     background-color: rgb(180,208,231);
@@ -256,14 +249,24 @@ header li{
     padding-top: 30px;
 }
 
+header .spotlight .row{
+    margin-top: 30px;
+}
+
 .spotlight-title h1{
     font-size: 80px;
+}
+
+header .col-40{
+    width: calc(40% - 40px) ;
+    font-size: 20px;
 }
 
 header p{
     margin-bottom: 30px;
     font-size: 18px;
 }
+
 
 header span{
     display: inline-block;
@@ -292,6 +295,32 @@ header span{
         transform: translateY(0);
     }
 }
+
+.spotlight .col-60 img{
+    width: 100%;
+}
+
+
+
+/* Header-layout */
+
+
+.col-50{
+    width: 50%;
+    height: 100%;
+}
+
+
+.col-40{
+    width: 40%;
+    font-size: 20px;
+}
+
+.col-60{
+    width: calc(60% - 40px) ;
+}
+
+
 
 
 /* MAIN-LAYOUT */
@@ -586,27 +615,8 @@ footer hr{
    filter: brightness(1.5);
 }
 
-ul.main > li {
-    border-bottom: 2px solid transparent;
-}
-ul.main > li:hover {
-    border-bottom: 2px solid black;
-}
 
-.help-ul li {
-        position: relative;
-        display: block;
-        text-align: left;
-    }
-    
-.help-ul {
-        border: 1px solid rgb(220,220,222);
-        background-color: white;
-        position: absolute;
-        top: 100%;
-        right: 30%;
-        display: none;
-    }
+
 /* 
 .help-btn:hover li{
     border:none;
