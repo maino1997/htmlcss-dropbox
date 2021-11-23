@@ -76,6 +76,12 @@ footer{
     color: white;
     margin-top: 100px;
 }
+
+.btn:hover{
+    filter: brightness(1.5);
+ }
+
+ 
 /* Utilites */
 
 .clearfix::after{
@@ -237,6 +243,9 @@ header li a{
     text-align: left;
 }
 
+.help-btn:hover ul{
+    display: block;
+}
 
 /* SPOTLIGHT  */
 
@@ -475,6 +484,10 @@ header span{
     transition: 0.5s;
 }
 
+.client-box:hover{
+    border: 10px solid rgb(201,230,198);
+}
+
 .clienti-boxes img{
     color: white;
     position: absolute;
@@ -542,6 +555,29 @@ header span{
 }
 
 
+
+/* SECTION-DOMANDE  */
+
+.domande .row{
+    margin: 20px 0 20px 0;
+}
+
+.question-left {
+    position: relative;
+}
+
+.hidden-p{
+    display: none;    
+    margin: 40px 0 40px 0;
+    transition: 3s;
+}
+
+.domande .row:hover .hidden-p{
+    display: block;
+}
+ 
+
+
 /* Header-layout */
 
 
@@ -561,8 +597,6 @@ header span{
 }
 
 
-
-
 /* MAIN-LAYOUT */
 
 .col-33{
@@ -579,14 +613,6 @@ label{
 }
 
 /* Sezione price-abbonamenti */
-
-
-
-/* .last-ul .indent:before{
-    content: "\f00c";
-    color: rgb(24, 102, 248);
-    font-size: 20px;
-} */
 
 
 /* Price footer  */
@@ -610,9 +636,6 @@ label{
 
 /* Sezione domande  */
 
-.domande .row{
-    margin: 20px 0 20px 0;
-}
 
 
 /* FOOTER-LAYOUT */
@@ -643,36 +666,5 @@ footer hr{
 
 /* HOOVER-ACTIVE */
 
-.client-box:hover{
-    border: 10px solid rgb(201,230,198);
-}
-
-.btn:hover{
-   filter: brightness(1.5);
-}
 
 
-
-/* 
-.help-btn:hover li{
-    border:none;
-} */
-
-.help-btn:hover ul{
-    display: block;
-}
-
-.question-left {
-    position: relative;
-}
-
-.hidden-p{
-    display: none;    
-    margin: 40px 0 40px 0;
-    transition: 3s;
-}
-
-.domande .row:hover .hidden-p{
-    display: block;
-}
- 
