@@ -66,6 +66,7 @@ p{
     font-weight: bold;
 }
 
+
 .header-bar{
     box-sizing: border-box;
     position: fixed;
@@ -76,11 +77,14 @@ p{
     background-color: white;
     height: 72px;
     line-height: 72px; 
+
+    box-shadow: 0 1px 1px lightgrey;
+
 }
 
 .header-bar .row{
     width: 100%;
-    box-shadow: 0 1px 1px lightgrey;
+    height: 100%;
 }
 
 address{
@@ -190,6 +194,7 @@ background-color: rgb(180,208,231);
 
 .col-50{
     width: 50%;
+    height: 100%;
 }
 
 header .col-40{
@@ -223,11 +228,11 @@ header li a{
     display: inline-block;
 }
 
-header ul:not(.help-ul){
+header ul.main{
     display: inline-block;
-    /* line-height: 70px; */
-    height: 72px;
+    height: 100%;
 }
+
 
 header li{
     display: inline-block;
@@ -581,7 +586,10 @@ footer hr{
    filter: brightness(1.5);
 }
 
-.header-bar li:hover{
+ul.main > li {
+    border-bottom: 2px solid transparent;
+}
+ul.main > li:hover {
     border-bottom: 2px solid black;
 }
 
@@ -595,7 +603,7 @@ footer hr{
         border: 1px solid rgb(220,220,222);
         background-color: white;
         position: absolute;
-        top: 74px;
+        top: 100%;
         right: 30%;
         display: none;
     }
