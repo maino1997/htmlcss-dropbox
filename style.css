@@ -429,6 +429,19 @@ header span{
 }
 
 
+
+/* SECTION-OPERAZIONI  */
+
+.operazioni .row{
+    margin-bottom: 70px;
+}
+
+.operazioni p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
 /* Header-layout */
 
 
@@ -496,17 +509,6 @@ label{
 
 
 /* Sezione operazioni  */
-
- .operazioni p{
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-
-.operazioni .row{
-    margin-bottom: 70px;
-}
-
 
 
 /* Sezione Clienti e loghi */
