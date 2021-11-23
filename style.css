@@ -406,6 +406,29 @@ header span{
 
 
 
+/* SEZIONE CONTATTO  */
+
+
+.contatto .col-50{
+    width: calc(50% - 40px);
+ }
+
+ .content-50{
+    padding: 0 20px 20px 20px;
+}
+
+.content-50 p{    
+        margin-top: 40px;
+        margin-bottom: 40px;
+}
+
+.content-50 a{
+    background-color: white;
+    border: 1px black solid;
+    color: black;
+}
+
+
 /* Header-layout */
 
 
@@ -439,9 +462,6 @@ header span{
 }
 
 
-.contatto .col-50{
-    width: calc(50% - 40px);
- }
  
  .content50{
     height: 400px;
@@ -473,20 +493,11 @@ label{
 
 /* Sezione Contatto */
 
-.content-50{
-    padding: 0 20px 20px 20px;
-}
-
-.content-50 a{
-    background-color: white;
-    border: 1px black solid;
-    color: black;
-}
 
 
 /* Sezione operazioni  */
 
-.content-50 p , .operazioni p{
+ .operazioni p{
     margin-top: 40px;
     margin-bottom: 40px;
 }
