@@ -85,7 +85,7 @@ footer{
     filter: brightness(1.5);
  }
 
- 
+
  
 /* UTILITIES */
 
@@ -208,6 +208,7 @@ footer{
 header ul.main{
     display: inline-block;
     height: 100%;
+    position: relative;
 }
 
 ul.main > li {
@@ -237,7 +238,7 @@ header li a{
     background-color: white;
     position: absolute;
     top: 100%;
-    right: 30%;
+    left: 0%;
     display: none;
 }
 
