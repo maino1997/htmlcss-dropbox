@@ -493,35 +493,43 @@ header span{
 
 .green{
     background-color: rgb(162,211,155);
+    border: solid 0px rgb(162,211,155);
 }
 
 .purple{
     background-color: rgb(97,8,43);
+    border: solid 0px rgb(97,8,43);
 }
 
 .doggerblue{
     background-color: rgb(0,147,206);
+    border: solid 0px rgb(0,147,206);
 }
 
 .red{
     background-color: rgb(255,28,28);
+    border: solid 0px rgb(255,28,28);
 }
 
 .dark-red{
     background-color: rgb(213,0,31);
+    border: solid 0px rgb(213,0,31);
 }
 
 .light-blue{
-background-color: rgb(180,208,231);
+    background-color: rgb(180,208,231);
+    border: solid 0px rgb(180,208,231);
 }
 
 .bloo{
     background-color: rgb(13,36,129);
+    border: solid 0px rgb(13,36,129);
 }
 
 .gold{
     background-color: rgb(255,216,48);
-}
+    border: solid 0px rgb(255,216,48);
+  }
 
 .client-box:hover{
     border: 10px solid rgb(201,230,198);
